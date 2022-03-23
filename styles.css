@@ -1,0 +1,80 @@
+.huge{
+    font-size: xx-large;
+}
+
+.thing{
+    padding: 100px;
+    font-size: xx-large;
+    height: 400px;
+    background-size: cover;
+}
+
+/* media selector for small screens */
+@media screen and (max-width: 600px) {
+    .thing{
+        padding: 50px;
+    }
+}
+
+.thing h1{
+    margin-bottom: 0;
+}
+
+.thing.yos{
+    background: linear-gradient(0deg, rgba(119, 8, 73, 0.473), rgba(121, 17, 77, 0.568)), url('https://www.gannett-cdn.com/presto/2019/02/26/PVIT/be8b05f9-e019-47ab-adb4-c1a5366455ad-YosemiteNationalPark_Firefalls_02-22-2019_JustinKeys-5959.jpg?crop=4015,2285,x0,y0&width=3200&height=1822&format=pjpg&auto=webp');
+    background-size: cover;
+}
+
+.thing.tet{
+    background: linear-gradient(0deg, rgba(26, 25, 104, 0.473), rgba(121, 17, 77, 0.568)), url('https://www.wellplannedjourney.com/wp-content/uploads/Grand-Teton-Reflection.jpg.webp');
+    background-size: cover;
+}
+
+.thing.alp{
+    background: linear-gradient(0deg, rgba(160, 11, 98, 0.473), rgba(17, 61, 71, 0.568)), url('https://alpsinsight.com/wp-content/uploads/2019/02/09NAls0010.jpg');
+    background-size: cover;
+}
+
+.thing *{
+    color:rgb(255, 208, 0)
+}
+
+.mainfont{
+    font-family: 'Merriweather', serif;
+}
+
+.ncontainer{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 1500px;
+}
+
+@media screen and (min-width: 1600px){
+    .ncontainer{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1500px;
+    }
+}
+
+.fatmargin{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+article{
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(44, 43, 39, 0.24);
+    margin-bottom: -15px;
+}
+
+body{
+    margin-bottom:50px;
+}
+
+html{
+    background: linear-gradient(0deg, rgba(187, 184, 212, 0.87), rgba(238, 202, 202, 0.808)), url('https://alpsinsight.com/wp-content/uploads/2019/02/09NAls0010.jpg');
+    background-size: cover;
+}

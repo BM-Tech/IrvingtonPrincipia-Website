@@ -27,12 +27,12 @@
 }
 
 .thing.yos{
-    background: linear-gradient(0deg, rgba(119, 8, 73, 0.473), rgba(121, 17, 77, 0.568)), url('https://www.gannett-cdn.com/presto/2019/02/26/PVIT/be8b05f9-e019-47ab-adb4-c1a5366455ad-YosemiteNationalPark_Firefalls_02-22-2019_JustinKeys-5959.jpg?crop=4015,2285,x0,y0&width=3200&height=1822&format=pjpg&auto=webp');
+    background: linear-gradient(0deg, rgba(119, 8, 73, 0.473), rgba(121, 17, 77, 0.568)), url('https://loveincorporated.blob.core.windows.net/contentimages/gallery/7f55e008-0a4b-4d03-a943-bd854d0afd02-9c396d47-2184-4468-a478-b663c6699729-Carina_Nebula_main.jpg');
     background-size: cover;
 }
 
 .thing.tet{
-    background: linear-gradient(0deg, rgba(26, 25, 104, 0.473), rgba(121, 17, 77, 0.568)), url('https://www.wellplannedjourney.com/wp-content/uploads/Grand-Teton-Reflection.jpg.webp');
+    background: linear-gradient(0deg, rgba(26, 25, 104, 0.473), rgba(121, 17, 77, 0.568)), url('https://scitechdaily.com/images/burning-peruvian-amazon.jpg');
     background-size: cover;
 }
 
@@ -81,6 +81,7 @@ body{
 }
 
 html{
-    background: linear-gradient(0deg, rgba(187, 184, 212, 0.87), rgba(238, 202, 202, 0.808)), url('https://alpsinsight.com/wp-content/uploads/2019/02/09NAls0010.jpg');
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.808)), url('https://alpsinsight.com/wp-content/uploads/2019/02/09NAls0010.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }

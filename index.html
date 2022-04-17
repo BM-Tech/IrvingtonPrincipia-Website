@@ -1,79 +1,443 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
+<html>
+
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> 
-    <title>Principia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Irvington Principia</title>
+    <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="ghost-blog.css">
+  </head>
 
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <section class="hero is-small is-success background">
+    <div class="hero-head">
+      <div class="container">
+        <nav class="navbar is-fixed-top is-hidden-mobile is-hidden-tablet-only" role="navigation" aria-label="main navigation">
 
-    <div class="ncontainer">
+          <div class="navbar-start">
+            <a class="navbar-item is-active" style="background-color: rgba(74, 175, 88, 0.541);">
+              Our Club
+            </a>
+            <a class="navbar-item" href="issues/index.html" style="background-color: rgba(0, 0, 0, 0.418) !important; border-bottom-right-radius: 10px;">
+              Articles
+            </a>
+          </div>
 
-
-        <nav class="fatmargin">
-            <ul><li class="mainfont" style="font-size: xx-large; color:rgb(139, 130, 0)">
-                Principia
-            </li></ul>
-            
-            <ul class="sbreak">
-                <li><a href="#">Issues</a></li>
-                <li><a href="#">Club</a></li>
-                <li><a href="#">About</a></li>
-
-            </ul>
+          <div class="wnavbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item" style="color:darkgrey">
+                <a href="#">
+                  <i class="fab fa-discord"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </nav>
-        <div class="ncontainer">
-            <article class="huge thing yos">
-                <h1 class="mainfont">Existence</h1>
-                <i style="font-size: large;">Issue #1</i>
-                <p style="color:white">Explore the depths of our universe. <a href="#">Read More.</a></p>
-            </article>
-
-            <div class="grid">
-                <article class="huge thing tet">
-                    <h1 class="mainfont">Evolution</h1>
-                    <i style="font-size: large;">Issue #1</i>
-                    <p style="color:white">Change in our universe. <a href="#">Read More.</a></p>
-                </article>
-                <article class="huge thing alp">
-                    <h1 class="mainfont">Something</h1>
-                    <i style="font-size: large;">Issue #1</i>
-                    <p style="color:white">I'm not sure what to put here. <a href="#">Read More.</a></p>
-                </article>
-            </div>
-
-            <div class="grid">
-                <article class="">
-                    <h2 class="mainfont">We're building something awesome.</h2>
-                    <p>Join our club and write articles like these</p>
-                    <button>Join Now</button>
-                </article>
-
-                <article class="huge thing yos">
-                    <h1 class="mainfont">Something</h1>
-                    <i style="font-size: large;">Issue #1</i>
-                    <p style="color:white">I'm not sure what to put here. <a href="#">Read More.</a></p>
-                </article>
-            </div>
-
-            <article>
-                <h2 class="mainfont">Don't miss an issue. Sign up for our newsletter.</h2>
-                <form class="grid">
-                    <input type="email" placeholder="Email">
-                    <button>Subscribe</button>
-                </form>
-            </article>
-        </div>
-        <br><br>
-        <footer class="fatmargin">
-            <p>&copy; 2022 Principia. Designed by nerdware llc.</p>
+      </div>
     </div>
-</body>
+      <div class="hero-body">
+        <br>
+        <div class="container">
+          <img src="images/principia-02.png" width="400">
+        </div>
+      </div>
+
+    <div class="hero-foot">
+      <nav class="tabs is-boxed">
+        <div class="container">
+          <ul class="tab-row-dark">
+            <li class="is-active"><a id="btn-overview">Overview</a></li>
+            <li><a id="btn-join">Join</a></li>
+            <li><a id="btn-about">About</a></li>
+            <li><a id="btn-resources">Resources</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </section>
+
+  <section class="blog-posts">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-10 is-offset-1">
+          <div class="columns featured-post is-multiline">
+
+            <!-- BEGIN Overview section  -->
+            <div class="column is-12 post" id="tab-overview">
+              <article class="columns featured">
+                <div class="column is-7 post-img ">
+                  <img src="images/principia-theme.png" alt="">
+                </div>
+                <div class="column is-5 featured-content va">
+                  <div>
+                    <h1 class="title post-title">Irvington's STEAM/Humanities club</h1>
+                    <p class="post-excerpt">We write articles about topics ranging from theoretical mathmatics to space to computer science. Our students explore the connections between different fields, and learn a wide range of things while researching and writing their articles. Join our club today.</p>
+                    <br>
+                    <a class="button is-success" target="_blank" href="issues/index.html">Explore Articles</a>
+                  </div>
+
+                </div>
+              </article>
+
+              <!-- BEGIN 2 Featured Articles -->
+              <div class="columns is-multiline">
+
+                <div class="column post is-6">
+                  <article class="columns is-multiline">
+                    <div class="column is-12 post-img">
+                      <img src="images/exist.webp" alt="Featured Image">
+                    </div>
+                    <div class="column is-12 featured-content ">
+                      <h3 class="heading post-category">Featured Issue</h3>
+                      <h1 class="title post-title">Existence</h1>
+                      <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
+                      <br>
+                      <a href="#" class="button is-primary">Read More</a>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="column post is-6">
+                  <article class="columns is-multiline">
+                    <div class="column is-12 post-img">
+                      <img src="images/evolution.png" alt="Featured Image">
+                    </div>
+                    <div class="column is-12 featured-content ">
+                      <h3 class="heading post-category">Featured Issue</h3>
+                      <h1 class="title post-title">Evolution</h1>
+                      <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
+                      <br>
+                      <a href="#" class="button is-primary">Read More</a>
+                    </div>
+                  </article>
+                </div>
+
+              </div>
+              <!-- 2 Featured Articles END -->
+            </div>
+            <!-- Overview section END -->
+
+            <!-- BEGIN Join section  -->
+            <div class="column is-12 post" id="tab-join" style="display: none;">
+              <div class="card is-shadowless">
+                <div class="card-content">
+                  <p class="title">
+                    Join Principia
+                  </p>
+                  <br>
+                  <p class="subtitle">
+                    Help write articles for us and explore the universe! You must have an A in MJ to write tho :)
+                  </p>
+                </div>
+
+                <footer class="card-footer">
+                  <div class="card-footer-item">
+                    <button class="button is-fullwidth is-link">
+                      <span class="icon">
+                        <i class="fas fa-laptop"></i>
+                      </span>
+                      <span>Fill out the form</span>
+                    </button>
+                  </div>
+
+                  <div class="card-footer-item">
+                    <button class="button is-fullwidth is-link">
+                      <span class="icon">
+                        <i class="fab fa-discord"></i>
+                      </span>
+                      <span>Join our Discord</span>
+                    </button>
+                  </div>
+
+                  <div class="card-footer-item">
+                    <button class="button is-fullwidth is-info">
+                      <span class="icon">
+                        <i class="fas fa-users-medical"></i>
+                      </span>
+                      <span>Explore member roles</span>
+                    </button>
+                  </div>
+                </footer>
+              </div>
+            </div>
+            <!-- Join section END -->
+
+            <!-- BEGIN About section  -->
+            <div class="column is-12 post" id="tab-about" style="display: none;">
+              <div class="card is-shadowless">
+                <div class="card-content">
+                  <p class="title">
+                    About
+                  </p>
+                  <br>
+                  <p class="subtitle">
+                    Principia is a club that does A, B, and C. We host guest speaker events, workshops, and more. Join us to do A and B. By doing stuff, our students acheive X, Y, and Z. We also host events for our students to learn about the universe.
+                  </p>
+                  <p class="subtitle">
+                    Check out our officer team!
+                  </p>
+
+                  <!-- BEGIN Officers Row 1 -->
+                  <div class="columns">
+                    <div class="column">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                              <figure class="image is-48x48">
+                                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                              </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4">John Smith</p>
+                              <p class="subtitle is-6">@johnsmith</p>
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="column">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                              <figure class="image is-48x48">
+                                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                              </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4">John Smith</p>
+                              <p class="subtitle is-6">@johnsmith</p>
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="column">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                              <figure class="image is-48x48">
+                                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                              </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4">John Smith</p>
+                              <p class="subtitle is-6">@johnsmith</p>
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- END Officers Row 1 -->
+
+                  <!-- BEGIN Officers Row 2 -->
+                  <div class="columns">
+                    <div class="column">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                              <figure class="image is-48x48">
+                                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                              </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4">John Smith</p>
+                              <p class="subtitle is-6">@johnsmith</p>
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="column">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                              <figure class="image is-48x48">
+                                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                              </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4">John Smith</p>
+                              <p class="subtitle is-6">@johnsmith</p>
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="column">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                              <figure class="image is-48x48">
+                                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                              </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4">John Smith</p>
+                              <p class="subtitle is-6">@johnsmith</p>
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- END Officers Row 2 -->
+
+                </div>
+              </div>
+            </div>
+            <!-- About section END -->
+
+            <!-- BEGIN Resources section  -->
+            <div class="column is-12 post" id="tab-resources" style="display: none;">
+              <div class="card is-shadowless">
+                <div class="card-content">
+                  <p class="title">
+                    Member Resources
+                  </p>
+                  <br>
+                  <p class="subtitle">
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1cw5MbnzaT5_SGsvf2dTsCQlXCCQBI4R7?usp=sharing" class="button is-medium is-primary">
+                      <span class="icon"><i class="fab fa-google-drive"></i></span>
+                      <span>Google Drive</span>
+                    </a>
+
+                    <a target="_blank" href="#" class="button is-medium is-primary">
+                      <span class="icon"><i class="fab fa-discord"></i></span>
+                      <span>Discord Server</span>
+                    </a>
+
+                    <a target="_blank" href="https://issuu.com/principia-magazine" class="button is-medium is-primary">
+                      <span class="icon"><i class="far fa-newspaper"></i></span>
+                      <span>Published Issues (on Issuu)</span>
+                    </a>
+
+                    <br><br>
+                    <a target="_blank" href="https://docs.google.com/spreadsheets/d/11R_vyyhi4v5aqOcswviVzrKuQQKFeJ6KJzmjrWV8lno/edit?usp=sharing">Roles, assignments, and deadlines</a> <br><br>
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1TUlHTmi5q7xlGUz6dEyHTJ2YLHILyoQl?usp=sharing">In-progress magazine issues</a> <br><br>
+                    <a target="_blank" href="https://forms.gle/7XSxPdiNVEw7d4mp7">Suggest a magazine theme</a> <br><br>
+                    <a target="_blank"href="https://github.com/benman604/principia">This website's github</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Join section END -->
+          </div>
+
+
+        </div>
+      </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        &copy; <strong>Principia</strong> 2022 
+        <br> principia@ihsvikings.org
+        <br> developed by <a href="http://google.com">BM Tech</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="tabs.js"></script>
 </html>
